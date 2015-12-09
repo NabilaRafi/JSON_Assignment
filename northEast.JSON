@@ -1,0 +1,44 @@
+{
+   "ARUNACHAL PRADESH": {
+      "literacyMale": 720098,
+      "illiteracyMale": 462204,
+      "literacyFemale": 563080,
+      "illiteracyFemale": 590166
+   },
+   "NAGALAND": {
+      "literacyMale": 1334871,
+      "illiteracyMale": 555805,
+      "literacyFemale": 1173537,
+      "illiteracyFemale": 625262
+   },
+   "MANIPUR": {
+      "literacyMale": 1467970,
+      "illiteracyMale": 607758,
+      "literacyFemale": 1240404,
+      "illiteracyFemale": 804412
+   },
+   "MIZORAM": {
+      "literacyMale": 846180,
+      "illiteracyMale": 226260,
+      "literacyFemale": 804268,
+      "illiteracyFemale": 257831
+   },
+   "TRIPURA": {
+      "literacyMale": 2206024,
+      "illiteracyMale": 591049,
+      "literacyFemale": 1899405,
+      "illiteracyFemale": 799170
+   },
+   "MEGHALAYA": {
+      "literacyMale": 1684600,
+      "illiteracyMale": 1086117,
+      "literacyFemale": 1637263,
+      "illiteracyFemale": 1132125
+   },
+   "ASSAM": {
+      "literacyMale": 12719584,
+      "illiteracyMale": 6322178,
+      "literacyFemale": 10351929,
+      "illiteracyFemale": 7927577
+   }
+}
