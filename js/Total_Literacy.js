@@ -1,11 +1,11 @@
 var fs = require('fs');
 
-var wholeFile =fs.readFileSync('India2011.csv','utf8');
-var scFile =fs.readFileSync('IndiaSC2011.csv','utf8');
-var stFile = fs.readFileSync('IndiaST2011.csv','utf8');
+var wholeFile =fs.readFileSync('csv/India2011.csv','utf8');
+var scFile =fs.readFileSync('csv/IndiaSC2011.csv','utf8');
+var stFile = fs.readFileSync('csv/IndiaST2011.csv','utf8');
 
 function appen(data) {
-  fs.appendFile('Census.csv',data, function (err) {
+  fs.appendFile('csv/Census.csv',data, function (err) {
   if (err) throw err;
   console.log('The "data to append" was appended to file!');
 });
@@ -14,7 +14,7 @@ function appen(data) {
 // appen(scFile);
 // appen(stFile);
 
-var rl =fs.readFileSync('Census.csv','utf8');
+var rl =fs.readFileSync('csv/Census.csv','utf8');
 
 //var files = [wholeFile, scFile, stFile];
 
@@ -74,26 +74,22 @@ function filterTotalPopulation(states) {
    //console.log(data);
 
    final.push({
-      'education':'Literate',
-      'male' : data.literate_Male,
-      'female' : data.literate_Female
-   });
-
-   final.push({
-      'education':'Illiterate',
-      'male' : data.illiterate_Male,
-      'female' : data.illiterate_Female
+      'education':'literacy',
+      'literatemale' : data.literate_Male,
+      'literatefemale' : data.literate_Female,
+      'illiteratemale' : data.illiterate_Male,
+      'illiteratefemale' : data.illiterate_Female
    });
 
 }
-finalObj = {"Total" : final};
+//finalObj = {"Total" : final};
 
-fs.writeFile("all.json", JSON.stringify(finalObj,null,4), function(err) {
+fs.writeFile("all.json", JSON.stringify(final,null,4), function(err) {
 
     if(err) {
       console.log(err);
     }
     else {
-      console.log("Successfully created literacy data StateWise");
+      console.log("Successfully created literacy data for all 3 files");
     }
 });

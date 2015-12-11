@@ -1,5 +1,5 @@
 var fs = require('fs');  //includes fs (file system)
-var rl =fs.readFileSync('Census.csv','utf8');
+var rl =fs.readFileSync('csv/Census.csv','utf8');
 
 var neState ={
   "ASSAM":"northEast","MANIPUR":"northEast","TRIPURA":"northEast","NAGALAND":"northEast",
@@ -26,6 +26,8 @@ function filter(inputFile){
      states.illiteracyFemale =0;
      if(currentState in neState) {
      if(obj[currentState] == undefined){
+
+       states.statename = currentState;
        states.literacyMale = parseInt(currentLine[13]);
        states.illiteracyMale = parseInt(currentLine[10]);
        states.literacyFemale = parseInt(currentLine[14]);
@@ -45,8 +47,9 @@ function filter(inputFile){
    }
 
 filter(rl.toString());
+//finalObj = {"State" : obj};
 
-fs.writeFile("NorthEast.JSON",JSON.stringify(obj,null,3), function(err) {
+fs.writeFile("northEast.json",JSON.stringify(obj,null,3), function(err) {
 
     if(err) {
       console.log(err);

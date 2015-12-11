@@ -1,12 +1,14 @@
 var fs = require('fs');
 
-var wholeFile =fs.readFileSync('India2011.csv','utf8');
-var scFile =fs.readFileSync('IndiaSC2011.csv','utf8');
-var stFile = fs.readFileSync('IndiaST2011.csv','utf8');
+
+// var wholeFile =fs.readFileSync('csv/India2011.csv','utf8');
+// var scFile =fs.readFileSync('csv/IndiaSC2011.csv','utf8');
+// var stFile = fs.readFileSync('csv/IndiaST2011.csv','utf8');
 
 //var allAges = "All ages";
 var final =[];
-var rl =fs.readFileSync('Census.csv','utf8');
+//reading the file
+var rl =fs.readFileSync('csv/Census.csv','utf8');
 
 function filter(inputFile) {
    //var jsonData = [];
@@ -56,13 +58,13 @@ function filterStatePopulation(states) {
    };
 }
 
-finalObj = {"States" : final};
-console.log(finalObj);
+//finalObj = {"States" : final};
+//console.log(finalObj);
 
 function getState(longName) {
    return longName.trim().split("-")[1].trim();
 }
-fs.writeFile("allstates.JSON", JSON.stringify(finalObj,null,4), function(err) {
+fs.writeFile("allstates.json", JSON.stringify(final,null,4), function(err) {
 
     if(err) {
       console.log(err);

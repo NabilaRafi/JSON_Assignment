@@ -1,0 +1,45 @@
+body {
+  font: 15px sans-serif;
+}
+img{
+  width:300px;
+}
+button{
+  float:right;
+  width:100px;
+  background-color: black;
+}
+.lin{
+  color: white;
+}
+
+svg {
+  padding: 10px 0px 0px 200px;
+}
+
+.arc {
+  stroke: #fff;
+}
+h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+.bar:hover{
+  background-color: black;
+}
+
+.x.axis path {
+  display: none;
+}
