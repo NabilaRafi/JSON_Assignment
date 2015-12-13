@@ -29,8 +29,21 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("../allstates.json", function(error, data) {
-  if (error) throw error;
+    d3.json("../allstate.json", function(error, nData) {
+      if (error) throw error;
+      //var data = d3.keys(nData);
+      //console.log(data);
+
+     var data = [];
+     for(d in nData) {
+       data.push({
+         'state':d,
+         'LiterateMale': nData[d].literacyMale,
+         'LiterateFemale': nData[d].literacyFemale,
+         'IlliterateMale': nData[d].illiteracyMale,
+         'IlliterateFemale': nData[d].illiteracyFemale
+       });
+     }
 
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "state"; }));
 

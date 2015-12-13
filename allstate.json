@@ -1,0 +1,212 @@
+{
+   "JAMMU & KASHMIR": {
+      "literacyMale": 4638896,
+      "illiteracyMale": 2778023,
+      "literacyFemale": 3030040,
+      "illiteracyFemale": 3587642
+   },
+   "HIMACHAL PRADESH": {
+      "literacyMale": 3553950,
+      "illiteracyMale": 1000341,
+      "literacyFemale": 2932873,
+      "illiteracyFemale": 1498816
+   },
+   "PUNJAB": {
+      "literacyMale": 13290173,
+      "illiteracyMale": 5989167,
+      "literacyFemale": 10424016,
+      "illiteracyFemale": 6900161
+   },
+   "CHANDIGARH": {
+      "literacyMale": 542484,
+      "illiteracyMale": 144535,
+      "literacyFemale": 394888,
+      "illiteracyFemale": 172629
+   },
+   "UTTARAKHAND": {
+      "literacyMale": 4664018,
+      "illiteracyMale": 1591010,
+      "literacyFemale": 3601287,
+      "illiteracyFemale": 2414396
+   },
+   "HARYANA": {
+      "literacyMale": 11543789,
+      "illiteracyMale": 4660601,
+      "literacyFemale": 7965494,
+      "illiteracyFemale": 6295193
+   },
+   "NCT OF DELHI": {
+      "literacyMale": 8321680,
+      "illiteracyMale": 2154446,
+      "literacyFemale": 6350946,
+      "illiteracyFemale": 2773178
+   },
+   "RAJASTHAN": {
+      "literacyMale": 30197730,
+      "illiteracyMale": 16451774,
+      "literacyFemale": 18148363,
+      "illiteracyFemale": 25210697
+   },
+   "UTTAR PRADESH": {
+      "literacyMale": 81511833,
+      "illiteracyMale": 45226735,
+      "literacyFemale": 54350746,
+      "illiteracyFemale": 61214908
+   },
+   "BIHAR": {
+      "literacyMale": 35908684,
+      "illiteracyMale": 27658242,
+      "literacyFemale": 23516107,
+      "illiteracyFemale": 34920317
+   },
+   "SIKKIM": {
+      "literacyMale": 341741,
+      "illiteracyMale": 101044,
+      "literacyFemale": 269497,
+      "illiteracyFemale": 132930
+   },
+   "ARUNACHAL PRADESH": {
+      "literacyMale": 720098,
+      "illiteracyMale": 462204,
+      "literacyFemale": 563080,
+      "illiteracyFemale": 590166
+   },
+   "NAGALAND": {
+      "literacyMale": 1334871,
+      "illiteracyMale": 555805,
+      "literacyFemale": 1173537,
+      "illiteracyFemale": 625262
+   },
+   "MANIPUR": {
+      "literacyMale": 1467970,
+      "illiteracyMale": 607758,
+      "literacyFemale": 1240404,
+      "illiteracyFemale": 804412
+   },
+   "MIZORAM": {
+      "literacyMale": 846180,
+      "illiteracyMale": 226260,
+      "literacyFemale": 804268,
+      "illiteracyFemale": 257831
+   },
+   "TRIPURA": {
+      "literacyMale": 2206024,
+      "illiteracyMale": 591049,
+      "literacyFemale": 1899405,
+      "illiteracyFemale": 799170
+   },
+   "MEGHALAYA": {
+      "literacyMale": 1684600,
+      "illiteracyMale": 1086117,
+      "literacyFemale": 1637263,
+      "illiteracyFemale": 1132125
+   },
+   "ASSAM": {
+      "literacyMale": 12719584,
+      "illiteracyMale": 6322178,
+      "literacyFemale": 10351929,
+      "illiteracyFemale": 7927577
+   },
+   "WEST BENGAL": {
+      "literacyMale": 42872726,
+      "illiteracyMale": 17589579,
+      "literacyFemale": 34457573,
+      "illiteracyFemale": 23116460
+   },
+   "JHARKHAND": {
+      "literacyMale": 14438872,
+      "illiteracyMale": 8850308,
+      "literacyFemale": 9810305,
+      "illiteracyFemale": 12519335
+   },
+   "ODISHA": {
+      "literacyMale": 20090572,
+      "illiteracyMale": 9467104,
+      "literacyFemale": 15171396,
+      "illiteracyFemale": 14024365
+   },
+   "CHHATTISGARH": {
+      "literacyMale": 12217542,
+      "illiteracyMale": 6130282,
+      "literacyFemale": 9034653,
+      "illiteracyFemale": 9259892
+   },
+   "MADHYA PRADESH": {
+      "literacyMale": 32737448,
+      "illiteracyMale": 18502900,
+      "literacyFemale": 22768198,
+      "illiteracyFemale": 25277367
+   },
+   "GUJARAT": {
+      "literacyMale": 27808439,
+      "illiteracyMale": 10294541,
+      "literacyFemale": 20807979,
+      "illiteracyFemale": 14520354
+   },
+   "DAMAN & DIU": {
+      "literacyMale": 133294,
+      "illiteracyMale": 27929,
+      "literacyFemale": 70923,
+      "illiteracyFemale": 32588
+   },
+   "DADRA & NAGAR HAVELI": {
+      "literacyMale": 200021,
+      "illiteracyMale": 85922,
+      "literacyFemale": 120813,
+      "illiteracyFemale": 121703
+   },
+   "MAHARASHTRA": {
+      "literacyMale": 53782003,
+      "illiteracyMale": 16543837,
+      "literacyFemale": 42945116,
+      "illiteracyFemale": 22889488
+   },
+   "ANDHRA PRADESH": {
+      "literacyMale": 34050462,
+      "illiteracyMale": 18274093,
+      "literacyFemale": 26717284,
+      "illiteracyFemale": 25335089
+   },
+   "KARNATAKA": {
+      "literacyMale": 27208963,
+      "illiteracyMale": 11156993,
+      "literacyFemale": 21684033,
+      "illiteracyFemale": 15769287
+   },
+   "GOA": {
+      "literacyMale": 682951,
+      "illiteracyMale": 141764,
+      "literacyFemale": 607954,
+      "illiteracyFemale": 200600
+   },
+   "LAKSHADWEEP": {
+      "literacyMale": 53684,
+      "illiteracyMale": 9954,
+      "literacyFemale": 48445,
+      "illiteracyFemale": 13510
+   },
+   "KERALA": {
+      "literacyMale": 15108442,
+      "illiteracyMale": 2634981,
+      "literacyFemale": 15796391,
+      "illiteracyFemale": 3390659
+   },
+   "TAMIL NADU": {
+      "literacyMale": 33428507,
+      "illiteracyMale": 10315223,
+      "literacyFemale": 28195464,
+      "illiteracyFemale": 15440978
+   },
+   "PUDUCHERRY": {
+      "literacyMale": 568823,
+      "illiteracyMale": 139200,
+      "literacyFemale": 523515,
+      "illiteracyFemale": 212740
+   },
+   "ANDAMAN & NICOBAR ISLANDS": {
+      "literacyMale": 174700,
+      "illiteracyMale": 42902,
+      "literacyFemale": 138239,
+      "illiteracyFemale": 53270
+   }
+}
